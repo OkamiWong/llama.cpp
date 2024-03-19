@@ -26,6 +26,7 @@ clean:
 run:
 	./build/bin/main \
 	-m /home/twang/temp/llama2/llama-2-13b-chat/ggml-model-f16.gguf \
+	-ts 0,1,0 \
 	-ngl 100 \
 	-p "A: How are you? B: " \
 	$(ARGS)
